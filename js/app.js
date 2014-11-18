@@ -1,3 +1,7 @@
+
+
+$(document).ready(function(){
+//	count 1 to supplied number
 // user input
 // input string to number
 
@@ -14,9 +18,6 @@ else {
 
 var upto = pickanumber + 1;
 console.log(upto);
-
-$(document).ready(function(){
-//	count 1 to supplied number
 
 	for (var i = 1; i < upto; i++) {
 //  if not divisible by 15 go on, else = fizz buzz
